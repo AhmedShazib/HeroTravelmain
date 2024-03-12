@@ -1,0 +1,48 @@
+body{
+    font-family: roboto;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+:root{
+    --primary-color: rgb(255, 94, 0);
+    --option-color:gray;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    margin-right: 40px;
+}
+.logo-h1{
+    font-size: 3rem;
+}
+.logo>h1>span{
+    color: var(--primary-color);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.menu-options{
+    display: flex;
+}
+
+.menu-options>li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 1.5rem;
+
+}
+.menu-options>li>a{
+    text-decoration: none;
+    color: var(--option-color);
+}
+.menu-options li:nth-child(1) > a{
+    color: var(--primary-color);
+    font-weight: bold;
+  }
