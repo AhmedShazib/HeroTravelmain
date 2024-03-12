@@ -46,3 +46,68 @@ nav{
     color: var(--primary-color);
     font-weight: bold;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* responsive */
+  @media screen and (max-width: 600px) {
+    body{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    
+    .menu-options{
+        display: none;
+    }
+    .logo-h1{
+        font-size: 1.5rem;
+    }
+    .logo-img{
+        margin-right: 20px;
+    }
+    
+    .menu span
+        {
+        display: block;
+        width: 33px;
+        height: 5px;
+        margin-bottom: 3px;
+        position: relative;
+        
+        background: var(--option-color);
+        border-radius: 3px; 
+        
+        }
+}
+  
