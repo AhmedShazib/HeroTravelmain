@@ -47,7 +47,75 @@ nav{
     font-weight: bold;
   }
 
+  .menu-options li:nth-child(5){
+    margin-right: 0px;
+  }
 
+  /* explore css */
+  .explore{
+    position: relative;
+    
+}
+
+.explore-image>img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gradient{
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.664), transparent);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.explore-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    
+}
+.explore-content>h1{
+    font-size: 5rem;
+    margin-bottom: 0px;
+}
+.explore-content>p{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.explore-content-form{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 10px;
+    margin-top: 120px;
+    width: 100%;
+}
+.form-common{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    color: gray;
+    margin: 0 15px;
+    width: 20%;
+}
+
+.submit{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    width: 20%;
+    font-size: 1rem;
+}
 
 
 
