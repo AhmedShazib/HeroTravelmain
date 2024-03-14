@@ -127,14 +127,48 @@ nav{
     font-size: 1rem;
 }
 
+/* about tours */
 
 
+.about-tours{
+    display: flex;
+    margin-top: 150px;
+}
 
+.about-tours-content{
+    width: 45%;
+    margin-right: 5%;
+}
+.about-tours-image{
+    width: 45%;
+    margin-left: 5%;
+}
+.about-tours-image>img{
+    width: 100%;
+}
 
+.about-tours-content-h1{
+    font-weight: 800;
+    font-size: 60px;
+    
+}
 
+.about-tours-content-p, .about-tours-content>ul{
+    font-size: 20px;
+    color: var(--option-color);
+}
 
-
-
+.read-more{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    width: 190px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
 
 
 
