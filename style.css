@@ -170,11 +170,109 @@ nav{
     margin-top: 20px;
 }
 
+/* demo */
+
+.demo{
+    margin-top: 150px;
+    
+}
+
+.demo-content{
+    text-align: center;
+}
+
+.demo-image-common{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.demo-image-common-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.demo-image-container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+}
+
+#demo-image-maldives{
+    grid-column: span 5;
+    
+}
+#demo-image-maldives>img{
+    width: 100%;  
+    height: 100%;
+}
 
 
 
 
+#demo-image-indonesia{
+    grid-column: span 5;
+    
+}
+#demo-image-indonesia>img{
+    width: 100%;
+    height: 100%;
+}
 
+
+
+
+#demo-image-srilanka{
+    grid-column: span 3;
+}
+#demo-image-srilanka>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#demo-image-NA{
+    grid-column: span 5;
+}
+#demo-image-NA>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#demo-image-kashmir{
+    grid-column: span 2;
+}
+#demo-image-kashmir>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#demo-image-bangladesh{
+    grid-column: span 4;
+}
+#demo-image-bangladesh>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#demo-image-bandarban{
+    grid-column: span 6;
+}
+#demo-image-bandarban>img{
+    width: 100%;
+    height: 100%;
+}
 
 
 
