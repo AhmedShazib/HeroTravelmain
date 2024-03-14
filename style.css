@@ -191,6 +191,21 @@ nav{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* responsive */
   @media screen and (max-width: 600px) {
     body{
@@ -222,7 +237,11 @@ nav{
         
         }
 
+
+
         /* explore */
+
+
         .explore{
             position: relative;
         }
@@ -278,5 +297,20 @@ nav{
             padding: 10px 0px 10px 10px;
         }
         
+
+        /* about tours */
+
+        .about-tours{
+            flex-direction: column;
+        }
+        .about-tours-content{
+            width: 100%;
+        }
+
+        .about-tours-image{
+            margin-top: 60px;
+            width: 100%;
+            margin-left: 0px;
+        }
 
 }
