@@ -179,6 +179,7 @@ nav{
 
 .demo-content{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .demo-image-common{
@@ -274,6 +275,15 @@ nav{
     height: 100%;
 }
 
+.demo-content>h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.demo-content>p{
+    font-size: 20px;
+    color: var(--option-color);
+}
 
 
 
@@ -410,5 +420,63 @@ nav{
             width: 100%;
             margin-left: 0px;
         }
+        .about-tours-content-h1{
+            font-weight: 800;
+            font-size: 30px;
+            
+        }
 
+
+        /*  Demo */
+
+        .demo-content>h1{
+            font-size: 30px;
+        }
+
+        .demo-content>p{
+            font-size: 20px;
+        }
+
+        .demo-image-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            /* grid-template-rows: 250px 250px 250px 250px 250px 250px 250px; */
+            grid-template-rows: repeat(7, 250px);
+        }
+
+
+
+        #demo-image-maldives{
+            grid-column: span 1;
+        }
+        
+
+        #demo-image-indonesia{
+            grid-column: span 1;
+            
+        }
+        
+        #demo-image-srilanka{
+            grid-column: span 1;
+        }
+        
+        #demo-image-NA{
+            grid-column: span 1;
+        }
+        
+        #demo-image-kashmir{
+            grid-column: span 1;
+        }
+        
+
+
+
+        #demo-image-bangladesh{
+            grid-column: span 1;
+        }
+        
+        #demo-image-bandarban{
+            grid-column: span 1;
+        }
+                
 }
