@@ -896,9 +896,11 @@ footer>p{
         }
         .deals-discounts-content1-child-people{
             grid-column: span 3;
+            margin-right: 3px;
         }
         .deals-discounts-content1-child-map{
             grid-column: span 3;
+            margin-left: 9px;
         }
 
         .all-packages{
