@@ -400,8 +400,8 @@ nav{
 }
 .deals-discounts-content1-child>h3{
     color: var(--primary-color);
-    font-size: 1.5rem;
-    margin-top: 40px;
+    font-size: 1rem;
+    margin-top: 16px;
     margin-bottom: 0px;
 }
 .deals-discounts-content1-child2{
@@ -489,8 +489,9 @@ nav{
 .newsletter-form{
     border: 1px solid var(--primary-color);
     border-radius: 15px;
-    padding: 20px 40px;
+    padding: 20px 33px;
     width: 30%;
+    
 }
 .newsletter-form>h1{
     font-size: 2.5rem;
