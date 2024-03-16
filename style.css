@@ -556,7 +556,28 @@ nav{
 .friend-span{
     font-weight: normal;
 }
+/* refund */
+.refund{
+    display: flex;
+    background-color: rgba(255, 249, 239, 0.432);
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted var(--option-color);
+    border-radius: 15px;
+}
 
+.refund-text{
+    text-align: center;
+}
+.refund-text>p{
+    color: var(--option-color);
+}
+
+.refund-image>img{
+    height: 45%;
+    width: 35%;    
+}
 /* footer */
 
 footer{
@@ -946,7 +967,26 @@ footer>p{
             top: 47%;
             left: 41%;
         }
+        /* refund */
+        .refund{
+            display: flex;
+            flex-direction: column;
+            margin-top: 350px;
+            margin-bottom: 70px;
+        }
+        
+        .refund-text>p{
+            color: var(--option-color);
+            font-size: 1.5rem;
+        }
+        .refund-image{
+            text-align: center;
+        }
 
+        .refund-text>h1{
+            font-size: 3rem;
+        }
+        
         /* footer */
 
         footer{
