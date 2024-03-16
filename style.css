@@ -1,4 +1,4 @@
-body{
+.body{
     font-family: roboto;
     margin-right: 160px;
     margin-left: 160px;
@@ -14,7 +14,7 @@ body{
     align-items: center;
 }
 .logo-img{
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .logo-h1{
     font-size: 3rem;
@@ -125,6 +125,7 @@ nav{
     color: white;
     width: 150px;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 /* about tours */
@@ -168,6 +169,7 @@ nav{
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 /* demo */
@@ -427,6 +429,7 @@ nav{
     padding: 20px 30px;
     width: 20%;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 /* get-lost */
 
@@ -520,6 +523,7 @@ nav{
     height: 60px;
     font-size: 35px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .newsletter-image{
@@ -547,9 +551,50 @@ nav{
     transform: rotate(-30deg);
     top: 52%;
     left: 58%;
+    cursor: pointer;
 }
 .friend-span{
     font-weight: normal;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(236, 236, 236);
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>p{
+    color: var(--option-color);
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+
+}
+.social-logo{
+    margin-right: 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.hr{
+    width: 60%;
+    color: rgb(94, 94, 94);
+}
+.logo-span-footer{
+    color: var(--primary-color);
 }
 
 
@@ -592,7 +637,7 @@ nav{
 
   /* responsive */
   @media screen and (max-width: 600px) {
-    body{
+    .body{
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -838,6 +883,7 @@ nav{
             font-weight: 400;
             width: 50%;
             font-size: 1rem;
+            cursor: pointer;
         }
         .button{
             justify-content: flex-start;
@@ -880,6 +926,7 @@ nav{
 
         .newsletter{
             flex-direction: column;
+            margin-bottom: 300px;
         }
         .newsletter-form{
             width: 80%;
@@ -899,4 +946,18 @@ nav{
             top: 47%;
             left: 41%;
         }
+
+        /* footer */
+
+        footer{
+            margin: 0px;
+        }
+
+        .footer-logo>h1{
+            font-size: 3rem;
+        }
+        footer>p{
+            font-size: 1.2rem;
+        }
+
 }
