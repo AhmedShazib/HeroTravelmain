@@ -428,9 +428,51 @@ nav{
     width: 20%;
     font-size: 1.5rem;
 }
+/* get-lost */
 
 
 
+.get-lost{
+    display: flex;
+    /* border: 1px solid; */
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left:50px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.get-lost-text{
+    width: 45%;
+}
+.get-lost-text>h1{
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin: 0px;
+}
+.get-lost-text>p , ul{
+    color: var(--option-color);
+    font-size: 1.5rem;
+}
+.get-lost-video{
+    position: relative;
+    width: 48%;
+    height: 488px;
+    /* border: 1px solid; */
+    margin-bottom: 10px;
+    
+    
+}
+.get-lost-video>video{
+    border-radius: 15px;
+    object-fit: cover;
+}
+.get-lost-video-text{
+    position: absolute;
+    top: 36%;
+    left: 26%;
+    color: white;
+    text-align: center;
+}
 
 
 
@@ -674,7 +716,7 @@ nav{
         }
         .deals-discounts-content1{
             height: 600px;
-            width: 500px;
+            width: 100%;
             overflow: hidden;
             border-radius: 15px;
             
@@ -691,7 +733,7 @@ nav{
             margin-left: -310px;
         }
         .deals-discounts-content1-child{
-            left: 39px;
+            left: 10%;
             width: 65%;
             padding: 45px;
             top: 135px;
@@ -718,13 +760,44 @@ nav{
         }
 
         .all-packages{
-            font-weight: 600;
-            width: 40%;
+            font-weight: 400;
+            width: 50%;
             font-size: 1rem;
         }
         .button{
             justify-content: flex-start;
         }
-        
-        
+
+        /* get-lost */
+        .get-lost{
+            flex-direction: column;
+            padding-left: 0px;
+        }
+        .get-lost-text{
+            width: 100%;
+        }
+        .get-lost-text>h1{
+            font-size: 1.5rem;
+            width: 100%;
+        }
+        .get-lost-text>p , ul{
+            color: var(--option-color);
+            font-size: 1.1rem;
+            width: 100%;
+        }
+        .button-div{
+            margin-bottom: 20px;
+        }
+        .get-lost-video{
+            width: 100%;
+            height: 260px;
+        }
+        .get-lost-video-text>h1{
+            font-size: 1.5rem;
+            width: 100%;
+        }
+        .get-lost-video-text{
+            top: 33%;
+            left: 18%;
+        }
 }
